@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.class-container {
+  background: #d6f6f3;
+  padding: 5px;
+}
+
+.class-container > div {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header {
+  background: black;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+}
+
+.theme-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.theme-desc > div {
+  padding: 10px 0;
+  background: red;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.theme-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #d6f6f3;
+  gap: 5px;
+  padding: 5px;
+}
+
+.theme {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.theme-name {
+  background: red;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+}
+
+.theme-colors {
+  width: 100%;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.theme-colors > div {
+  /*   padding: 10px; */
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+/* LIGHT */
+.light .primary {
+  background: #5b16fc;
+  color: #ffffff;
+}
+
+.light .secondary {
+  background: #10c4e3;
+  color: #090476;
+}
+
+.light .base-100 {
+  background: #f3f5fd;
+  color: #0a029e;
+}
+
+.light .base-200 {
+  background: #cdcdce;
+  color: #363636;
+}
+
+.light .base-300 {
+  background: #8c8c8d;
+  color: #efeff5;
+}
+
+.light .neutral {
+  background: #0f7eba;
+  color: #eaedf8;
+}
+
+.light .accent {
+  background: #32049c;
+  color: #e7dffa;
+}
+
+/* CUPCAKE */
+.cupcake .primary {
+  background: #9500af;
+  color: #fff9c6;
+}
+
+.cupcake .secondary {
+  background: #db34f8;
+  color: #f8e763;
+}
+
+.cupcake .base-100 {
+  background: #fcf5d2;
+  color: #5b025f;
+}
+
+.cupcake .base-200 {
+  background: #ecdf9d;
+  color: #672572;
+}
+
+.cupcake .base-300 {
+  background: #d9c669;
+  color: #492550;
+}
+
+.cupcake .neutral {
+  background: #e511ad;
+  color: #fafcdc;
+}
+
+.cupcake .accent {
+  background: #550663;
+  color: #fdfdce;
+}
+
+/* BLACK */
+.black .primary {
+  background: #2d2d31;
+  color: #ffffff;
+}
+
+.black .secondary {
+  background: #1a1a1d;
+  color: #ffffff;
+}
+
+.black .base-100 {
+  background: #000000;
+  color: #e1e0e2;
+}
+
+.black .base-200 {
+  background: #1f1d1f;
+  color: #f0d9f5;
+}
+
+.black .base-300 {
+  background: #454045;
+  color: #cdbad0;
+}
+
+.black .neutral {
+  background: #392c40;
+  color: #cfccd0;
+}
+
+.black .accent {
+  background: #40404c;
+  color: #dcdce2;
+}
+
+/* DRACULA */
+.dracula .primary {
+  background: #090118;
+  color: #ffffff;
+}
+
+.dracula .secondary {
+  background: #23163d;
+  color: #ffffff;
+}
+
+.dracula .base-100 {
+  background: #060031;
+  color: #e9e8ec;
+}
+
+.dracula .base-200 {
+  background: #0e064c;
+  color: #e7e4fc;
+}
+
+.dracula .base-300 {
+  background: #1b125f;
+  color: #c8c1f8;
+}
+
+.dracula .neutral {
+  background: #461a58;
+  color: #f6e8fc;
+}
+
+.dracula .accent {
+  background: #1e0649;
+  color: #dbd7e2;
+}
